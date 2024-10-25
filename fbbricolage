@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page professionnelle - BuildSmart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f06, #4a90e2);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffd700;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .cta:hover {
+            background-color: #ffa500;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur ma page professionnelle</h1>
+        <p>Spécialiste en bricolage, construction, et matériel de qualité</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="services">
+        <h2>Ce que je propose</h2>
+        <p>Chez <strong>BuildSmart</strong>, je fournis des services de haute qualité en bricolage, vente de matériaux de construction, et installations sanitaires. Mon expertise garantit un travail durable, professionnel, et adapté à vos besoins.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projets récents</h2>
+        <p>Découvrez mes projets réalisés récemment, allant de rénovations de maisons à des installations complexes. Chaque projet est une opportunité d'apporter des solutions innovantes et personnalisées.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <p>Pour plus d'informations ou un devis, n'hésitez pas à me contacter. Vous pouvez également suivre mes dernières réalisations sur ma page Facebook.</p>
+        <a href="https://www.facebook.com/Fbbricolage" target="_blank" class="cta">Visitez ma page Facebook</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BuildSmart - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
